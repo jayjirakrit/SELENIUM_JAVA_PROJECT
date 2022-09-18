@@ -22,14 +22,14 @@ Ex. `mvn clean compile test -DSUITEFILE=src/main/resources/xml/framework/e2e_log
 
 Find Summary-Report{DateTime}.html file in Path:`test-output\UI*.html`.
 
-## Website API Testing
-https://restful-booker.herokuapp.com/apidoc/index.html
+## Website UI Testing
+https://the-internet.herokuapp.com/
 
 ## Further help
 
 To get more help on the Maven CLI use `mvn -help` or go check out the [Maven CLI Overview and Command Reference](https://maven.apache.org/index.html) page.
 
-To get more help on Rest-Assured go check out (https://rest-assured.io/) page.
+To get more help on Selenium go check out (https://www.selenium.dev/) page.
 #
 # Code Conventions for Java
 The information on this page is for Archive Purposes Only
