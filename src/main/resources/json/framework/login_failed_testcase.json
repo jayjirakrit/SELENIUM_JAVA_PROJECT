@@ -1,0 +1,44 @@
+{
+  "login_failed_id_0001": {
+    "scenario_name": "Login service failed with invalid username",
+    "description": "[Login Page]-[Given:User Login service failed with invalid username'., When: Users follow these steps {1. Input 'Username/Password', 2.  Click 'Login' button}, Then: Should be login failed]",
+    "expected_result": [
+      "1. Login Failed"
+    ],
+    "test_data": {
+      "body": {
+        "username": "invalidusername",
+        "password": "SuperSecretPassword!"
+      }
+    },
+    "expected_result_key": [
+      "Your username is invalid!"
+    ],
+    "response_body": {
+    },
+    "logs": [
+    ],
+    "is_skip": false
+  },
+  "login_failed_id_0002": {
+    "scenario_name": "Login service failed with invalid password",
+    "description": "[Login Page]-[Given:User Login service failed with invalid password'., When: Users follow these steps {1. Input 'Username/Password', 2.  Click 'Login' button}, Then: Should be login failed]",
+    "expected_result": [
+      "1. Login Failed"
+    ],
+    "test_data": {
+      "body": {
+        "username": "tomsmith",
+        "password": "invalidpassword!"
+      }
+    },
+    "expected_result_key": [
+      "Your password is invalid!"
+    ],
+    "response_body": {
+    },
+    "logs": [
+    ],
+    "is_skip": false
+  }
+}

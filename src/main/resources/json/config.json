@@ -1,0 +1,7 @@
+
+{
+  "implicitly_wait": 10,
+  "page_load_timeout": 10,
+  "set_script_timeout": 10,
+  "web_driver_wait": 20
+}

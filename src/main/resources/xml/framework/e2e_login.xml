@@ -1,0 +1,6 @@
+<suite name="Login_Service" parallel="false">
+    <suite-files>
+        <suite-file path="login_success.xml"/>
+        <suite-file path="login_failed.xml"/>
+    </suite-files>
+</suite>

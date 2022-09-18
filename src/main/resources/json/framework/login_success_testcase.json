@@ -1,0 +1,43 @@
+{
+  "login_success_id_0001": {
+    "scenario_name": "Login service successfully",
+    "description": "[Login Page]-[Given:User Login service success'., When: Users follow these steps {1. Input 'Username/Password', 2.  Click 'Login' button}, Then: Should be login success]",
+    "expected_result": [
+      "1. Login success"
+    ],
+    "test_data": {
+      "body": {
+        "username": "tomsmith",
+        "password": "SuperSecretPassword!"
+      }
+    },
+    "expected_result_key": [
+      "You logged into a secure area!"
+    ],
+    "response_body": {
+    },
+    "logs": [
+    ],
+    "is_skip": false
+  },
+  "logout_success_id_0001": {
+    "scenario_name": "Logout service successfully",
+    "description": "[Logout Page]-[Given:User Logout service success'., When: Users follow these steps {1. Navigate in Secure Page, 2.  Click 'Logout' button}, Then: Should be logout success]",
+    "expected_result": [
+      "1. Logout success"
+    ],
+    "test_data": {
+      "body": {
+      }
+    },
+    "expected_result_key": [
+      "You logged out of the secure area!"
+    ],
+    "response_body": {
+    },
+    "logs": [
+    ],
+    "is_skip": false
+  }
+
+}
