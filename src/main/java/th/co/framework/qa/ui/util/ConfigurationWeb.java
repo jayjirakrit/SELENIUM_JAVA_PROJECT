@@ -8,7 +8,7 @@ import th.co.framework.qa.ui.model.EnvironmentModel;
 public class ConfigurationWeb {
     public static String setup(String webBrowserType, String serviceName) {
         String baseUrlUi = "";
-        EnvironmentModel dataModel = new Gson().fromJson(String.valueOf(GetJsonData.getEnvironment()), EnvironmentModel.class);
+        EnvironmentModel dataModel = new Gson().fromJson(String.valueOf(GetJsonDataUi.getEnvironment()), EnvironmentModel.class);
 
         final String AUTOMATE_TYPE = System.getProperty("automateType").toLowerCase();
         final String SERVER = System.getProperty("environment").toLowerCase();
